@@ -7,10 +7,10 @@ public class OperationDiv extends Operation {
     @Override
     public double GetResult() {
         double result = 0;
-        if(numberB==0){
-            throw new RuntimeException(e,"除数不能为零");
+        if(getNumberB()==0){
+            throw new RuntimeException("除数不能为零");
         }
-        result = numebrA / numberB;
+        result = getNumberA() / getNumberB();
         return result;
     }
 }

@@ -4,7 +4,7 @@ package zc.com.pattern.model.staticfactory;
  * Created by Administrator on 2017/3/6.
  */
 public class OperationFactory {
-    public static Operation createOperate(string operate) {
+    public static Operation createOperate(String operate) {
         Operation oper= null;
         switch (operate) {
             case "+":
