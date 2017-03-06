@@ -8,18 +8,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Created by Administrator on 2017/3/6.
  */
+@Controller
+@RequestMapping(value = "/hello", method = RequestMethod.GET)
 public class HelloController {
-
-    @Controller
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public class HelloController {
-
         @RequestMapping(value = "/hello", method = RequestMethod.GET)
         public String printHello(ModelMap model) {
             model.addAttribute("msg", "Spring MVC Hello World");
             model.addAttribute("name", "yuntao");
-            return "/index";
+            return "/hello";
         }
-    }
 
 }
