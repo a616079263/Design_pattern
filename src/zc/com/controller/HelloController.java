@@ -14,7 +14,7 @@ public class HelloController {
         @RequestMapping(value = "/hello", method = RequestMethod.GET)
         public String printHello(ModelMap model) {
 
-            return "/hello";
+            return "hello";
         }
 
 }
