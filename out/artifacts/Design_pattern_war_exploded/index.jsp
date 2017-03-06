@@ -11,6 +11,15 @@
     <title></title>
 </head>
 <body>
-hehe
+<center>
+    <table>
+        <tr>
+            <td><a href="/pattern/static">静态</a></td>
+        </tr>
+        <tr>
+            <td><a href="/pattern/strategy">策略</a></td>
+        </tr>
+    </table>
+</center>
 </body>
 </html>
