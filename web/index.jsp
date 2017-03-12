@@ -5,10 +5,12 @@
   Time: 16:42
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title></title>
+    <title>主页</title>
+    <script>
+
+    </script>
 </head>
 <body>
 <center>
@@ -16,6 +18,7 @@
         <tr>
             <td><a href="/pattern/static">静态</a></td>
         </tr>
+        ${pageContext.request.contextPath}
         <tr>
             <td><a href="/pattern/strategy">策略</a></td>
         </tr>

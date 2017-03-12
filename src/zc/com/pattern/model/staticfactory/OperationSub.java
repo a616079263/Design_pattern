@@ -10,4 +10,5 @@ public class OperationSub extends Operation {
         result = getNumberA() - getNumberB();
         return result;
     }
+
 }
