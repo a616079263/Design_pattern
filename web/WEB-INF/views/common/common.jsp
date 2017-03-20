@@ -7,8 +7,8 @@
 %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<link rel="stylesheet" type="text/css" href="${basePath}views/jquery/themes/default/easyui.css">
-<link rel="stylesheet" type="text/css" href="${basePath}views/jquery/themes/icon.css">
-<link rel="stylesheet" type="text/css" href="${basePath}views/jquery/demo.css">
-<script type="text/javascript" src="${basePath}views/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="${basePath}views/jquery/jquery.easyui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/jquery/jquery-easyui-1.5.1/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="${basePath}jquery/jquery-easyui-1.5.1/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="${basePath}jquery/jquery-easyui-1.5.1/demo.css">
+<script type="text/javascript" src="${basePath}jquery/jquery-easyui-1.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="${basePath}jquery/jquery-easyui-1.5.1/jquery.easyui.min.js"></script>
