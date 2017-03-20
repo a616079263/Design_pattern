@@ -21,6 +21,7 @@ public class Context {
     }
 
     public static void main(String[] args) {
+
         Context context = null;
 
         context = new Context(new ConcreteStrategyA());
@@ -34,5 +35,7 @@ public class Context {
 
         context = new Context(new ConcreteStrategyD());
         context.ContextInterface();
+
     }
+
 }
